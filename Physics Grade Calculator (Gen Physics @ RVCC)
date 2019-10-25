@@ -5,7 +5,7 @@ z = (float(input('Enter Points from lab:')))
 a = (float(input("Total Possible Points from lab:")))
 
 b = (float(input('Enter Points from Tests:')))
-d = (float(input('Total Possible Points from tests;')))
+d = (float(input('Total Possible Points from tests:')))
 
 if ((x + z + b)/(y + a + d) >= 0.90):
     print((x + z + b)/(y + a + d), " is your grade, you have a 4.0!")
