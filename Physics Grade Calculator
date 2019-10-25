@@ -1,0 +1,19 @@
+x = (float(input("Enter Points received from Quizzes + HW:")))
+y = (float(input("Total Possible Points:")))
+
+z = (float(input('Enter Points from lab:')))
+a = (float(input("Total Possible Points from lab:")))
+
+b = (float(input('Enter Points from Tests:')))
+d = (float(input('Total Possible Points from tests;')))
+
+if ((x + z + b)/(y + a + d) >= 0.90):
+    print((x + z + b)/(y + a + d), " is your grade, you have a 4.0!")
+elif ((x + z + b)/(y + a + d) >= 0.80):
+    print((x + z + b)/(y + a + d), " you are close, but no cigar.")
+elif ((x + z + b)/(y + a + d) >=0.70):
+    print((x + z + b)/(y + a + d), "You are not doing well at all.")
+elif ((x + z + b)/(y + a + d) >= 0.60):
+    print((x + z + b)/(y + a + d), "Oh boy, your f@!#$ng failing.")
+else:
+    print("Please drop the class ASAP.")
